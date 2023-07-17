@@ -5,7 +5,7 @@
  *
  */
 
-int main()
+int main(void)
 {
 	int num = 0;
 
@@ -15,5 +15,5 @@ int main()
 	num++;
 	}
 	printf("\n");
-	return 0;
+	return (0);
 }
