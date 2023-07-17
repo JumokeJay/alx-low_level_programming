@@ -2,7 +2,7 @@
 /**
  * main - This is the Entry point
  * this code is to show the different sizes of various types on my computer
- * Return - this will always be 0 (success)
+ * Return: this will always be 0 (success)
  */
 int main(void)
 {
