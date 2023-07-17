@@ -12,8 +12,8 @@ int main()
 	lowercase++;
 	}
 
-	char uppercase = 'A';
-	while (uppercase <= 'Z')
+	char uppercase = 'a';
+	while (uppercase <= 'z')
 	{
 	putchar(uppercase);
 	uppercase++;
