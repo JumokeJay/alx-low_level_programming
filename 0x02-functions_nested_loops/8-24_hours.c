@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * void jack_bauer - this is the function for the time of the day
+ * jack_bauer - this is the function for the time of the day
  * no parameters
  * Return: void nothing
  */
