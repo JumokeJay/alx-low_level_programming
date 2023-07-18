@@ -4,7 +4,7 @@
  * _abs - this is the absolute variable for the function
  * @b: parameter for the function
  *
- * Return: in this case 0 
+ * Return: in this case 0
  */
 int _abs(int b)
 {
