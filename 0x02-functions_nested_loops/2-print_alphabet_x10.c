@@ -2,11 +2,16 @@
 #include "main.h"
 /**
  * main - this is the entry point
- * print_alphabet_x10 - this is the function for the printing os alphabet 10 times
+ * print_alphabet_x10 - this is the function for the print of alphabet 10 times
  * Return - always should be 0 (success)
  */
 
 void print_alphabet_x10(void)
+
+/**
+ * print_alphabet_x10 - this is the fucntion for 10 times print
+ */
+
 {
 char alphabet = 'a';
 int repeat = 10;
