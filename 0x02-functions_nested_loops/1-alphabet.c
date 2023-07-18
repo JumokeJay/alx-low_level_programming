@@ -3,15 +3,16 @@
 /**
  * main - this is the entry point as usual
  * Return: should and always be 0 (success)
- *
+ * print_alphabet - this is to print the alphabet
  */
 void print_alphabet(void)
 {
 	char alphabet = 'a';
 
-	while (alphabet <= 'z') {
+	while (alphabet <= 'z')
+	{
 	putchar(alphabet);
 	alphabet++;
-    }
+	}
 	putchar('\n');
 }
