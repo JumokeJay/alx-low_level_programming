@@ -6,11 +6,7 @@
  * Return - always should be 0 (success)
  */
 
-void print_alphabet_x10(void)
-
-/**
- * print_alphabet_x10 - this is the fucntion for 10 times print
- */
+void print_alphabet_x10(void) /* print_alphabet_x10 - this is the fucntion for 10 times print*/
 
 {
 char alphabet = 'a';
