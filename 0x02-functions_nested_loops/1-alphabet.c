@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * Return: should and always be 0 (success)
- * print_alphabet - this is to print the alphabet
+ * print_alphabet - this is to print lowercase alphabet
+ * Return: doesnt return anything
  */
 void print_alphabet(void)
 {
