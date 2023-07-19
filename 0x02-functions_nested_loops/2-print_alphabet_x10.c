@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - this is the entry point
  * print_alphabet_x10 - this is the function for the print of alphabet 10 times
  * Return - always should be 0 (success)
  */
