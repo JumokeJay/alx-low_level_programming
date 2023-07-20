@@ -1,8 +1,6 @@
 #include "main.h"
 /**
  * more_numbers - the function to demand more numbers
- * @a: first integer
- * @c: second integer
  * Return: what it is bring out
  */
 void more_numbers(void)
