@@ -21,7 +21,8 @@ void puts_half(char *str)
 	end++;
 	}
 
-	while (str[start_index] != '\0') {
+	while (str[start_index] != '\0')
+	{
 	putchar(str[start_index]);
 	start_index++;
 	}
