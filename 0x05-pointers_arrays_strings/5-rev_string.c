@@ -18,8 +18,8 @@ void rev_string(char *s)
 	end++;
 	}
 	end--;
-
-    while (start < end)
+	
+	while (start < end)
 	{
 	char temp = *start;
 	*start = *end;
