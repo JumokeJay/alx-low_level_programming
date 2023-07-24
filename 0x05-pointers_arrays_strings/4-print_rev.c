@@ -9,11 +9,12 @@ void print_rev(char *s)
 {
 	int length = 0;
 	char *end = s;
-	
-	if (s== NULL)
+
+	if (s == NULL)
 	return;
 
-    	while (*end != '\0') {
+	while (*end != '\0')
+	{
 	length++;
 	end++;
 	}
