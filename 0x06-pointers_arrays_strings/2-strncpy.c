@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
  * _strncpy - the function that cop0ies a string
  * @dest: the destination of the string
