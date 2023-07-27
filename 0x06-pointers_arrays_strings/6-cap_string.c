@@ -6,22 +6,30 @@
  * Return: the outcome
  */
 
-char *cap_string(char *str)
+char *cap_string(char *x)
 {
-	int capitalize_next = 1;
-	char *ptr = str;
+	int a = 0;
+	int b = 1;
+	char *returnptr = x;
+	char *del = "\t\n;. ,!?\"(){}\0";
 
-	while (*ptr != '\0')
-{
-	if ((*ptr) || *ptr == ',' || *ptr == ';' || *ptr == '.' || *ptr == '!' || *ptr == '?' || *ptr == '"' || *ptr == '(' || *ptr == ')' || *ptr == '{' || *ptr == '}')
+	while (*x)
 	{
-	capitalize_next = 1;
-	}
-	else if (capitalize_next)
+	if (b == 1)
 	{
-	capitalize_next = 0;
+		if (*x >= 'a' && *x <= 'z')
+		{
+		*x -= 32;
+		}
+	b = 0;
 	}
-	ptr++;
+
+	for (a = 0; del[a]; a++)
+	{
+	if (*x == del[a])
+		b = 1;
 	}
-	return (str);
+	x++;
+	}
+	return (returnptr);
 }
