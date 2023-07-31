@@ -9,14 +9,12 @@
 
 void print_diagsums(int *a, int size)
 {
-	int sum1 = 0;
-	int sum2 = 0;
-	for (int i = 0; i < size; i++)
-	{
-	sum1 += a[i * size + i];
-	sum2 += a[i * size + (size - 1 - i)];
-}
+	int x = 0, y = 0;
+	int i;
 
-	printf("Sum of the main diagonal: %d\n", sum1);
-	printf("Sum of the secondary diagonal: %d\n", sum2);
+	for (i = 0; i < (size * size); i = (i + size + 1))
+		x = x + a[i];
+	for (i = size - 1; i < (size * size - 1); i = (i + size - 1))
+		y = y + a[i];
+	printf("%d, %d\n", x, y);
 }
