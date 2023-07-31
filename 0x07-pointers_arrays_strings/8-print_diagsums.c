@@ -1,4 +1,4 @@
-#include "main.h0"
+#include "main.h"
 #include <stdio.h>
 /**
  * print_diagsums - the function to print the sum
