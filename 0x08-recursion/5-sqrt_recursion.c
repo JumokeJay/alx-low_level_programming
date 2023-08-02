@@ -4,7 +4,7 @@
  * _sqrt_recursion - the function to calculate the square of the integer
  * findsq - the function to find the square
  * @n: the first integer
- * @a: the element to countdown
+ *
  * Return: the result
  */
 
