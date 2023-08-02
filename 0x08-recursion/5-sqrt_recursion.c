@@ -2,13 +2,16 @@
 #include <stdio.h>
 /**
  * _sqrt_recursion - the function to calculate the square of the integer
+ * findsq - the function to find the square
  * @n: the first integer
  * @a: the element to countdown
  * Return: the result
  */
-int _sqrt_recursion (int n)
+
+int _sqrt_recursion(int n)
 {
 	int a = 0;
+
 	return (findsq(n, a));
 }
 
