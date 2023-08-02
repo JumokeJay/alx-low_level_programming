@@ -14,6 +14,12 @@ int _sqrt_recursion(int n)
 
 	return (findsq(n, a));
 }
+/**
+ * findsq - the function to find the square
+ * @n: the first integer
+ * @a: the element to countdown
+ * Return: the result
+ */
 
 int findsq(int n, int a)
 {
@@ -21,5 +27,5 @@ int findsq(int n, int a)
 	return (-1);
 	if ((a * a) == n)
 	return (a);
-	return (findsq(n, (a = 1)));
+	return (findsq(n, (a + 1)));
 }
