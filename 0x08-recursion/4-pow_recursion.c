@@ -3,7 +3,7 @@
 /**
  * _pow_recursion - the function for the mathematical expression of power
  * @x: first integer
- * @x: second integer
+ * @y: second integer
  * Return: the result
  */
 
