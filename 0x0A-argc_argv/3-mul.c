@@ -10,18 +10,17 @@
 
 int main(int argc, char *argv[])
 {
+	int mul;
+
 	if (argc != 3)
 	{
 	printf("Error\n");
 	return (1);
 	}
 
-	int num1 = atoi(argv[1]);
-	int num2 = atoi(argv[2]);
+	mul = atoi(argv[argc 2]) * atoi(argv[argc - 1]);
 
-	int result = num1 * num2;
-
-	printf("%d\n", result);
+	printf("%d\n", mul);
 
 	return (0);
 }
