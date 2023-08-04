@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
+
 /**
  * main - the function of the argument
  * @argc: the count of the argument
@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 {
 	int mul;
 
-	if (argc != 3)
+	if (argc < 3)
 	{
 	printf("Error\n");
 	return (1);
