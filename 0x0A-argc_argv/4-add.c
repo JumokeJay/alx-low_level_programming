@@ -1,48 +1,65 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h>
+#include <string.h>
 #include <ctype.h>
 /**
- * is_positive_integer -  the function that defines the character
- * @str: is the string
- * Return: the reult of the code
+ * check_num - check - string there are digit
+ * @str: array str
+ *
+ * Return: Always 0 (Success)
  */
-
-bool is_positive_integer(const char *str)
+int check_num(char *str)
 {
-	while (*str != '\0')
+	unsigned int count;
+
+	count = 0;
+	while (count < strlen(str))
+
 	{
-	if (!isdigit(*str))
+	if (!isdigit(str[count]))
 	{
-	return (false);
+	return (0);
 	}
-	str++;
+
+	count++;
 	}
-	return (true);
+	return (1);
 }
 
 /**
- * main - the function to print the program
- * @argc: the count of the argument
- * @argv: the array pf the argument
- * Return: the result of the code
+ * main - Print the name of the program
+ * @argc: Count arguments
+ * @argv: Arguments
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(int argc, char *argv[])
+
 {
+
+	int count;
+	int str_to_int;
 	int sum = 0;
 
-	for (int i = 1; i < argc; i++)
+	count = 1;
+	while (count < argc)
 	{
-	if (is_positive_integer(argv[i]))
+	if (check_num(argv[count]))
+
 	{
-	sum += atoi(argv[i]);
+	str_to_int = atoi(argv[count]);
+	sum += str_to_int;
 	}
+
+	
 	else
 	{
 	printf("Error\n");
 	return (1);
 	}
+
+	count++;
 	}
 
 	printf("%d\n", sum);
