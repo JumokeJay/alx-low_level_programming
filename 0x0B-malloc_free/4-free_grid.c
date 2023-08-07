@@ -4,7 +4,7 @@
 /**
  * free_grid - the function that returns the memory back
  * @grid: the stack
- * @geight: the parameter of the stack
+ * @height: the parameter of the stack
  */
 
 void free_grid(int **grid, int height)
@@ -14,6 +14,6 @@ void free_grid(int **grid, int height)
 	for (i = 0; i < height; i++)
 	{
 	free(grid[i]);
-	}	
+	}
 	free(grid);
 }
