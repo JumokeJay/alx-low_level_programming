@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * creat_array - the function that creates the array
+ * create_array - the function that creates the array
  * @size: the size of the array
  * @c: the parameter of the memory
  * Return: the result of the code
@@ -29,6 +29,7 @@ char *create_array(unsigned int size, char c)
 	{
 	array[i] = c;
 	}
+
 
 	return (array);
 }
