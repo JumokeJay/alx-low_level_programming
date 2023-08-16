@@ -6,7 +6,7 @@
  * Return: void
  */
 
-void print_dog(struct dog *a
+void print_dog(struct dog *a)
 {
 	if (a == NULL)
 	return;
@@ -17,4 +17,5 @@ void print_dog(struct dog *a
 	if (a->owner == NULL)
 	a->owner = "(nil)";
 	printf("Owner: %s\n", a->owner);
+
 }
