@@ -9,6 +9,7 @@
 int main(void)
 {
 	char *p = __FILE__;
+
 	while (*p)
 	{
 	_putchar(*p);
