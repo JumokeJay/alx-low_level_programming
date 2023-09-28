@@ -22,6 +22,10 @@ int is_prime_helper(int n, int divisor)
 	return (is_prime_helper(n, divisor - 1));
 }
 
+/**
+ * is_prime_number - the function that betty is disturbing for
+ */
+
 int is_prime_number(int n)
 	{
 	if (n <= 1)
