@@ -2,6 +2,7 @@
 #include <stdio.h>
 /**
  * is_prime_helper - the function to get the prime number
+ * is_prime_number - the function to get thte actual number
  * @n: the integer
  * @divisor: the mathematical divisor
  * Return: the result
