@@ -24,6 +24,8 @@ int is_prime_helper(int n, int divisor)
 
 /**
  * is_prime_number - the function that betty is disturbing for
+ * @n: the integer
+ * Return: the answr to the code
  */
 
 int is_prime_number(int n)
